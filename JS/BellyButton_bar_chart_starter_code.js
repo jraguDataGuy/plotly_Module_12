@@ -80,8 +80,8 @@ function buildCharts(sample) {
 
     // 8. Create the trace for the bar chart. 
     var barData = [{
-      x: samplesArray.slice(0,10).reverse,
-      text: otuLabels.slice(0,10).reverse,
+      x: sampleArray.slice(0,10).reverse,
+      text: otuLabel.slice(0,10).reverse,
       type: "bar"
     }];
     // 9. Create the layout for the bar chart. 
